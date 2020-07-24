@@ -19,8 +19,15 @@
     justify-content: flex-end;
 
     .option {
-      text-decoration: none;
+      text-decoration: none !important;
       padding: 10px 15px;
+      cursor: pointer;
+
+      .profile-picture {
+        width: 40px;
+        border-radius: 1.5rem;
+      }
     }
+
   }
 }
